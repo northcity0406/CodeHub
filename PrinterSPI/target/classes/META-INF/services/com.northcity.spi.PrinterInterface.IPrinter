@@ -1,0 +1,2 @@
+com.northcity.spi.PrinterImpl.ImagePrinter
+com.northcity.spi.PrinterImpl.TextPrinter

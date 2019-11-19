@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e92a9db-3da7-48e5-9f37-17a30579485f" name="Default Changelist" comment="" />
+    <list default="true" id="d96ae6e7-4508-40b9-8b07-580a0d74c943" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,22 +13,26 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="FxmlFile" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1ToTDHDU2jL8H5pZKnJgYMjYcx4" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Toa08HGKaD3pZVL2jfce3OtdoR" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/resources/META-INF/services" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mark\Desktop\SPI\resources\META-INF" />
-      <recent name="C:\Users\mark\Desktop\SPI\resources" />
-      <recent name="C:\Users\mark\Desktop\SPI" />
-      <recent name="C:\Users\mark\Desktop\SPI\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mark\Desktop\PrinterSPI\src\main\resources\resources\META-INF\services" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -45,8 +49,14 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="SPI" />
+      <option name="MAIN_CLASS_NAME" value="com.northcity.spi.Main" />
+      <module name="PrinterSPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.northcity.spi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,12 +72,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3e92a9db-3da7-48e5-9f37-17a30579485f" name="Default Changelist" comment="" />
-      <created>1574125326778</created>
+      <changelist id="d96ae6e7-4508-40b9-8b07-580a0d74c943" name="Default Changelist" comment="" />
+      <created>1574128675232</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574125326778</updated>
-      <workItem from="1574125329559" duration="2181000" />
+      <updated>1574128675232</updated>
+      <workItem from="1574128678317" duration="1439000" />
     </task>
     <servers />
   </component>
