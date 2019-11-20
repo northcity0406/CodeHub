@@ -1,0 +1,2 @@
+image=com.northcity.printer.ImagePrinter
+text=com.northcity.printer.TextPrinter
