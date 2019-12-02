@@ -30,13 +30,14 @@ public class UserServiceImpl implements UserService {
 
     //查询数据库后 数据添加到缓存
     @Override
-    @Cacheable(cacheNames = "cacheManager", key = "'User:'+ #id")
+    @Cacheable(cacheNames = "cacheManager", key = "'User:'+ #id",unless="#result == null")
 //    @Cacheable(key = "'User:'+ #id")
     public User getUser(Integer id) {
-//        Map<String,String> d = new HashMap<>();
-//        d.put("a","aa");
-//        redisTemplate.opsForHash().putAll("ss",d);
-//        redisTemplate.opsForValue().set("tt","sjdbds");
+        Map<String,String> d = new HashMap<>();
+        d.put("a","aa");
+        redisTemplate.opsForHash().putAll("ss",d);
+        redisTemplate.opsForValue().set("tt","sjdbds");
+//        logger.info();
         return repository.getUser(id);
     }
 
